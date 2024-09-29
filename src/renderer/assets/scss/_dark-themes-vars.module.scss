@@ -1,0 +1,195 @@
+// paper & background
+$paper: rgb(17, 25, 54);
+
+// primary
+$primaryLight: rgb(26, 34, 63); // main container bgcolor
+$primaryMain: rgb(114, 103, 239); // button border color
+$primaryDark: #6a5fed;  // progressbar fore color
+$primary200: #90caf9;
+$primary800: rgb(189, 200, 240); // card title
+$primaryCard: #212946; // card bgcolor
+
+// secondary
+$secondaryLight: rgba(124, 77, 255, 0.15);  // sidebar selected bgcolor
+$secondaryMain: #673ab7;
+$secondaryDark: rgb(124, 77, 255);  // side bar selected color
+$secondary200: #b39ddb;
+$secondary800: #29314f; // card button bgcolor
+$secondaryCard: rgb(238, 237, 253); // dark card bgcolor
+
+// main card - dark theme
+$cardBorderColor: #fafafa1f;
+$cardBeforeBgColor1: linear-gradient(140.9deg, #6a5fed -14.02%, #90caf900 85.5%);
+$cardAfterBgColor1: linear-gradient(210.04deg, #6a5fed -50.94%, #90caf900 95.49%);
+$cardBeforeBgColor2: linear-gradient(140.9deg, #6a5fed -14.02%, #90caf900 85.5%);
+$cardAfterBgColor2: linear-gradient(210.04deg, #6a5fed -50.94%, #90caf900 95.49%);
+$cardBeforeBgColor3: #212946;
+$cardAfterBgColor3: #212946;
+$cardBgColor1: #212946;
+$cardBgColor2: #212946;
+$cardIconBgColor1: #29314f;
+$cardIconBgColor2: #29314f;
+$cardIconBgColor3: #554ae8;
+$cardIconBgColor4: #29314f;
+$cardIconBgColor5: #212946;
+
+// success Colors
+$successLight: #b9f6ca;
+$success200: #69f0ae;
+$successMain: #00e676;
+$successDark: #00c853;
+
+// error
+$errorLight: #ef9a9a;
+$errorMain: #f44336;
+$errorDark: #c62828;
+
+// orange
+$orangeLight: #fbe9e7;
+$orangeMain: #ffab91;
+$orangeDark: #d84315;
+
+// warning
+$warningLight: #fff8e1;
+$warningMain: #ffe57f;
+$warningDark: #ffc107;
+
+// grey
+$grey50: rgb(26, 34, 63); // input bgcolor
+$grey100: #eef2f6;
+$grey200: rgba(227, 232, 239, 0.2); // <Devider />
+$grey300: #cdd5df;
+$grey400: rgba(189, 200, 240, 0.28);
+$grey500: #697586;
+$grey600: #4b5565;
+$grey700: rgb(189, 200, 240);
+$grey900: rgb(215, 220, 236);
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #1a223f; // level 3
+$darkPaper: #111936; // level 4
+
+// dark 800 & 900
+$darkLevel1: #29314f; // level 1
+$darkLevel2: #212946; // level 2
+
+// primary dark
+$darkPrimaryLight: #eef2f6;
+$darkPrimaryMain: #2196f3;
+$darkPrimaryDark: #1e88e5;
+$darkPrimary200: #90caf9;
+$darkPrimary800: #1565c0;
+
+// secondary dark
+$darkSecondaryLight: #d1c4e9;
+$darkSecondaryMain: #7c4dff;
+$darkSecondaryDark: #651fff;
+$darkSecondary200: #b39ddb;
+$darkSecondary800: #6200ea;
+
+// text variants
+$darkTextTitle: #d7dcec;
+$darkTextPrimary: #bdc8f0;//#bdc8f0;
+$darkTextSecondary: #8492c4;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+  // paper & background
+  paper: $paper;
+
+  // primary
+  primaryLight: $primaryLight;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary200: $primary200;
+  primary800: $primary800;
+  primaryCard: $primaryCard;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondary200: $secondary200;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary800: $secondary800;
+  secondaryCard: $secondaryCard;
+
+  // card
+  cardBeforeBgColor1: $cardBeforeBgColor1;
+  cardAfterBgColor1: $cardAfterBgColor1;
+  cardBeforeBgColor2: $cardBeforeBgColor2;
+  cardAfterBgColor2: $cardAfterBgColor2;
+  cardBeforeBgColor3: $cardBeforeBgColor3;
+  cardAfterBgColor3: $cardAfterBgColor3;
+  cardBorderColor: $cardBorderColor;
+  cardBgColor1: $cardBgColor1;
+  cardBgColor2: $cardBgColor2;
+  cardIconBgColor1: $cardIconBgColor1;
+  cardIconBgColor2: $cardIconBgColor2;
+  cardIconBgColor3: $cardIconBgColor3;
+  cardIconBgColor4: $cardIconBgColor4;
+
+
+  // success
+  successLight: $successLight;
+  success200: $success200;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  // error
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  // orange
+  orangeLight: $orangeLight;
+  orangeMain: $orangeMain;
+  orangeDark: $orangeDark;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey400: $grey400;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  // ==============================|| DARK THEME VARIANTS ||============================== //
+
+  // paper & background
+  darkPaper: $darkPaper;
+  darkBackground: $darkBackground;
+
+  // dark 800 & 900
+  darkLevel1: $darkLevel1;
+  darkLevel2: $darkLevel2;
+
+  // text variants
+  darkTextTitle: $darkTextTitle;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+
+  // primary dark
+  darkPrimaryLight: $darkPrimaryLight;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkPrimary200: $darkPrimary200;
+  darkPrimary800: $darkPrimary800;
+
+  // secondary dark
+  darkSecondaryLight: $darkSecondaryLight;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+  darkSecondary200: $darkSecondary200;
+  darkSecondary800: $darkSecondary800;
+}
